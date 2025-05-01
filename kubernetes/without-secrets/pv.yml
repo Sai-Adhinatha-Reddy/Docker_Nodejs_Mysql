@@ -4,7 +4,7 @@ metadata:
   name: patients-pv
   namespace: proj-no-secrets
 spec:
-  storageClassName: patients-pv
+  storageClassName: patients-data
   accessModes:
     - ReadWriteOnce
   capacity:
