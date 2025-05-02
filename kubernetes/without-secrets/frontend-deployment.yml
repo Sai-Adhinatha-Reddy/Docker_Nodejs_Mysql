@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nodeapp
-        image: gsaiadhinathareddy/patients-app::v1
+        image: gsaiadhinathareddy/patients-app:v1
         env:
         - name: DB_HOST
           value: mysqldb-service
