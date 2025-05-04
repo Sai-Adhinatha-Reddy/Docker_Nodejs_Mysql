@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nodeapp
-        image: ckr123/nodeapp-mysql:v1
+        image: gsaiadhinathareddy/patients-app:v1
         env:
         - name: DB_HOST
           valueFrom:
